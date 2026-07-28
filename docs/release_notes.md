@@ -1,5 +1,10 @@
 # Release notes
 
+## Version 1.0.1
+
+- Aligns the repository and preferred-citation titles with the submitted manuscript.
+- No analysis logic, model configuration, public-release boundary, or numerical result is changed.
+
 ## Version 1.0.0
 
 - Code-only public release.

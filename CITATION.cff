@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite the accompanying article."
-title: "Provenance-aware validation benchmark for LC3 mortar"
+title: "Computational workflow for campaign-aware validation of LC3 mortar strength models"
 type: software
 authors:
   - family-names: "Demiral"
@@ -13,11 +13,13 @@ authors:
     affiliation: "Bilecik Şeyh Edebali University"
     email: "muhammed.malkoc@bilecik.edu.tr"
     orcid: "https://orcid.org/0000-0002-8346-2475"
-version: 1.0.0
+version: 1.0.1
+date-released: 2026-07-28
+repository-code: "https://github.com/muhammedmlkc/lc3-provenance-aware-benchmark"
 license: MIT
 preferred-citation:
   type: article
-  title: "Random row-wise cross-validation underestimates prediction error for unseen experimental campaigns in LC3 mortar: a provenance-aware benchmark"
+  title: "Random-split validation underestimates unseen-campaign error in machine-learning prediction of LC3 mortar compressive strength"
   authors:
     - family-names: "Demiral"
       given-names: "Nazım Çağatay"

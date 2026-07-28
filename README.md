@@ -1,9 +1,9 @@
-# Provenance-aware validation benchmark for LC3 mortar
+# Computational workflow for campaign-aware validation of LC3 mortar strength models
 
 This repository contains the computational methods for the study:
 
-> **Random row-wise cross-validation underestimates prediction error for unseen
-> experimental campaigns in LC3 mortar: a provenance-aware benchmark**
+> **Random-split validation underestimates unseen-campaign error in
+> machine-learning prediction of LC3 mortar compressive strength**
 
 The workflow compares row-wise, mixture-grouped, campaign-held-out, and
 programme-group-held-out validation. Its purpose is to align validation groups
