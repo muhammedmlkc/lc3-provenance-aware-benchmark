@@ -1,0 +1,28 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+.DS_Store
+Thumbs.db
+
+# Reconstructed data, provenance records, split manifests, predictions,
+# analyses, figures, logs, and fitted artifacts are private local outputs.
+data/
+metadata/
+results/
+outputs/
+config/private/
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.docx
+*.pdf
+*.png
+*.joblib
+*.pkl
+*.log
+*.tmp
+*.bak

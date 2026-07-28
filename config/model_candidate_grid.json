@@ -1,0 +1,1093 @@
+{
+  "version": "LC3_MODEL_CANDIDATE_GRID_V1",
+  "status": "PASS_EXACT_CANDIDATE_LISTS_FROZEN_NO_FITTING",
+  "model_fitted": false,
+  "scientific_results_generated": false,
+  "candidate_ordering": "uppercase SHA-256 hexadecimal ascending",
+  "outer_results_used": false,
+  "grids": {
+    "ridge": {
+      "model": "ridge",
+      "full_cartesian_count": 13,
+      "selected_count": 13,
+      "selection_rule": "all candidates ordered by SHA256(model + canonical parameter JSON)",
+      "candidates": [
+        {
+          "candidate_id": "RIDGE_01",
+          "ordering_sha256": "05CAD88988867ABCB9FBAF5882CE5151CB1C3AF07C09D69942E294D53EC97EDB",
+          "parameters": {
+            "alpha": 0.0001
+          }
+        },
+        {
+          "candidate_id": "RIDGE_02",
+          "ordering_sha256": "2D93C25AD815CA74A4E98CE95E921D54E332B9F2553C213CF2BB201BDC0C7B5C",
+          "parameters": {
+            "alpha": 0.00031622776601683794
+          }
+        },
+        {
+          "candidate_id": "RIDGE_03",
+          "ordering_sha256": "32DD33BD7468E1CB36AF4D9340EEC2C840AF3AFCF42A89EFED6BD42C4F472754",
+          "parameters": {
+            "alpha": 0.03162277660168379
+          }
+        },
+        {
+          "candidate_id": "RIDGE_04",
+          "ordering_sha256": "410D3979FA8A479C744252D5EF06F143D0771DD596311183B50DC24657AA998F",
+          "parameters": {
+            "alpha": 31.622776601683793
+          }
+        },
+        {
+          "candidate_id": "RIDGE_05",
+          "ordering_sha256": "4F06A1B82247809AF4E31D0072E4269B72DE0D980239EC289F68CF683D8ABDEF",
+          "parameters": {
+            "alpha": 1.0
+          }
+        },
+        {
+          "candidate_id": "RIDGE_06",
+          "ordering_sha256": "535129EEDDF0517ECF69F3A77FD397F09BC91577E073159C6D4E262B64BBBDAB",
+          "parameters": {
+            "alpha": 0.01
+          }
+        },
+        {
+          "candidate_id": "RIDGE_07",
+          "ordering_sha256": "5E761345715B878604DA7661E13189E6E358437E99C002D56C2B3177682E8EBD",
+          "parameters": {
+            "alpha": 3.1622776601683795
+          }
+        },
+        {
+          "candidate_id": "RIDGE_08",
+          "ordering_sha256": "9B8C674BD7A948BD068595BAD6457DE34BCCDF7A9178C64A4ACE8E5A2981B250",
+          "parameters": {
+            "alpha": 10.0
+          }
+        },
+        {
+          "candidate_id": "RIDGE_09",
+          "ordering_sha256": "9DB54E9F37D6BFCF8E3473005BCB35B57A09EE3C1544F16BF2B91EC2B729E489",
+          "parameters": {
+            "alpha": 0.1
+          }
+        },
+        {
+          "candidate_id": "RIDGE_10",
+          "ordering_sha256": "A168E9FB0F32055B9276C8C929AB51CA584610948EBC49F576981DC868E8B842",
+          "parameters": {
+            "alpha": 0.0031622776601683794
+          }
+        },
+        {
+          "candidate_id": "RIDGE_11",
+          "ordering_sha256": "A619951062F51A675933F965451784C4FFD854C511B63C4CCAA412412692537E",
+          "parameters": {
+            "alpha": 0.001
+          }
+        },
+        {
+          "candidate_id": "RIDGE_12",
+          "ordering_sha256": "A717687562E6C6BCD881D89B135368BA1A58F47025B4966D424EFB9481D138FF",
+          "parameters": {
+            "alpha": 0.31622776601683794
+          }
+        },
+        {
+          "candidate_id": "RIDGE_13",
+          "ordering_sha256": "FF906EAA680DD761198C3187AA16C7FD60C799F457C93A2ADB048B80767A012C",
+          "parameters": {
+            "alpha": 100.0
+          }
+        }
+      ]
+    },
+    "elastic_net": {
+      "model": "elastic_net",
+      "full_cartesian_count": 32,
+      "selected_count": 32,
+      "selection_rule": "all candidates ordered by SHA256(model + canonical parameter JSON)",
+      "candidates": [
+        {
+          "candidate_id": "ELASTIC_NET_01",
+          "ordering_sha256": "027E656B88D15535F30F726FBF77571D4359862B71F7569B96A4F0F4F9399D61",
+          "parameters": {
+            "alpha": 0.0007196856730011522,
+            "l1_ratio": 1.0
+          }
+        },
+        {
+          "candidate_id": "ELASTIC_NET_02",
+          "ordering_sha256": "034FAD53CDDC1D4909B75AB96A01DB264A9828A17083810E4ED826D42AC13B8C",
+          "parameters": {
+            "alpha": 100.0,
+            "l1_ratio": 1.0
+          }
+        },
+        {
+          "candidate_id": "ELASTIC_NET_03",
+          "ordering_sha256": "2A6DC1299B943BACE27B16AC0909E110126880C4D501C448FD3DD7E4737E450E",
+          "parameters": {
+            "alpha": 0.005179474679231213,
+            "l1_ratio": 0.25
+          }
+        },
+        {
+          "candidate_id": "ELASTIC_NET_04",
+          "ordering_sha256": "2C6928EE4E4AD84BDDD095207BBC4D38D0171BB19C54F6DAA5502288A384EEB3",
+          "parameters": {
+            "alpha": 0.0007196856730011522,
+            "l1_ratio": 0.25
+          }
+        },
+        {
+          "candidate_id": "ELASTIC_NET_05",
+          "ordering_sha256": "39ECA8E3A42C6347734CE4B8D3DD8262E37E9D5DE0D3A281FE793369E077A707",
+          "parameters": {
+            "alpha": 0.0001,
+            "l1_ratio": 0.5
+          }
+        },
+        {
+          "candidate_id": "ELASTIC_NET_06",
+          "ordering_sha256": "44E6AA88A5774054A14ECF8A9B245A11C85848F250FA5EEEABDDF04F96B7EEE4",
+          "parameters": {
+            "alpha": 0.0001,
+            "l1_ratio": 1.0
+          }
+        },
+        {
+          "candidate_id": "ELASTIC_NET_07",
+          "ordering_sha256": "4AEF12DFA26EFF2AEE18A1FFFB7172CB0E77E99DA133878FA74EFBA09F061391",
+          "parameters": {
+            "alpha": 0.03727593720314938,
+            "l1_ratio": 0.25
+          }
+        },
+        {
+          "candidate_id": "ELASTIC_NET_08",
+          "ordering_sha256": "4B6F56838F876EBC163FA3EBC5797823F8C2BC7805F3C7DE43DA63151E39D3C0",
+          "parameters": {
+            "alpha": 0.2682695795279725,
+            "l1_ratio": 0.25
+          }
+        },
+        {
+          "candidate_id": "ELASTIC_NET_09",
+          "ordering_sha256": "4FFEC787030419A4815A5D785FE1F68C9BBEBD724B0C6B4D5E63D2DE5766D79C",
+          "parameters": {
+            "alpha": 13.89495494373136,
+            "l1_ratio": 0.5
+          }
+        },
+        {
+          "candidate_id": "ELASTIC_NET_10",
+          "ordering_sha256": "5C43848446B45DBBEE610AAC7F6AAA7B2920E1FB95AED20AEE808A5C87E1A04E",
+          "parameters": {
+            "alpha": 1.9306977288832496,
+            "l1_ratio": 0.5
+          }
+        },
+        {
+          "candidate_id": "ELASTIC_NET_11",
+          "ordering_sha256": "6017E1BAC5BECEFFC7050B5CF3E10E86566041655868764ED04E9BA2D8C7EAD1",
+          "parameters": {
+            "alpha": 13.89495494373136,
+            "l1_ratio": 0.75
+          }
+        },
+        {
+          "candidate_id": "ELASTIC_NET_12",
+          "ordering_sha256": "660C64C948A0EB8FEC5C1BD4DC3AE84ADE84C493A624F6D441C85C964FD62741",
+          "parameters": {
+            "alpha": 0.2682695795279725,
+            "l1_ratio": 1.0
+          }
+        },
+        {
+          "candidate_id": "ELASTIC_NET_13",
+          "ordering_sha256": "6962B4C71148E7455E85F0553809EB6E1E4FA6AC7E825B8D328659167DED67A7",
+          "parameters": {
+            "alpha": 0.03727593720314938,
+            "l1_ratio": 0.75
+          }
+        },
+        {
+          "candidate_id": "ELASTIC_NET_14",
+          "ordering_sha256": "6CFE5B3B348868149AC17AD92F898637DAD683577765C36930FE883F597C3CEB",
+          "parameters": {
+            "alpha": 0.0007196856730011522,
+            "l1_ratio": 0.5
+          }
+        },
+        {
+          "candidate_id": "ELASTIC_NET_15",
+          "ordering_sha256": "7553A0FE89E2ABDC1126423751C41B48AA284A479C3268184538CD394E64D238",
+          "parameters": {
+            "alpha": 1.9306977288832496,
+            "l1_ratio": 0.25
+          }
+        },
+        {
+          "candidate_id": "ELASTIC_NET_16",
+          "ordering_sha256": "75AEBE05134463988D189B7406FA76BF04723742A547908D1CEA982AF9FA0BCC",
+          "parameters": {
+            "alpha": 0.2682695795279725,
+            "l1_ratio": 0.75
+          }
+        },
+        {
+          "candidate_id": "ELASTIC_NET_17",
+          "ordering_sha256": "7793E24ED11A600BBAEA61D47C5BF645CEB9EFDD23DC83EF9AE10FF6D602360D",
+          "parameters": {
+            "alpha": 1.9306977288832496,
+            "l1_ratio": 1.0
+          }
+        },
+        {
+          "candidate_id": "ELASTIC_NET_18",
+          "ordering_sha256": "78FA062491F9291366EFD910A0EF49201B81B5CAA43C2965138751EA1B82EFD2",
+          "parameters": {
+            "alpha": 100.0,
+            "l1_ratio": 0.75
+          }
+        },
+        {
+          "candidate_id": "ELASTIC_NET_19",
+          "ordering_sha256": "82A959BCB46545A0491DC67A91FEF7E51158A516C68635EE766420168110489E",
+          "parameters": {
+            "alpha": 0.005179474679231213,
+            "l1_ratio": 1.0
+          }
+        },
+        {
+          "candidate_id": "ELASTIC_NET_20",
+          "ordering_sha256": "8770BCEC0D0E7FF7E18564411CDE3F0D365F868B83168197AA1D105A64DA49FD",
+          "parameters": {
+            "alpha": 0.0001,
+            "l1_ratio": 0.75
+          }
+        },
+        {
+          "candidate_id": "ELASTIC_NET_21",
+          "ordering_sha256": "8F4621A9D0BFF2DEF748EA5AC40DF55133472900878FC772946960718E34F975",
+          "parameters": {
+            "alpha": 1.9306977288832496,
+            "l1_ratio": 0.75
+          }
+        },
+        {
+          "candidate_id": "ELASTIC_NET_22",
+          "ordering_sha256": "B629B123DDD4F1E7818096E09BC4EEAF558E08AE2AF7BC5E43425EBEAAC57F39",
+          "parameters": {
+            "alpha": 13.89495494373136,
+            "l1_ratio": 0.25
+          }
+        },
+        {
+          "candidate_id": "ELASTIC_NET_23",
+          "ordering_sha256": "B6D278D9EBFC4A7D1E7C3D1C112456583CD73FDCEB5A1ECACF12BDF578132B2C",
+          "parameters": {
+            "alpha": 0.005179474679231213,
+            "l1_ratio": 0.75
+          }
+        },
+        {
+          "candidate_id": "ELASTIC_NET_24",
+          "ordering_sha256": "B9ADB30DDDA69668F8F49E3967C2EABE12BFDAD83135DD9BB96898CB2A927C9E",
+          "parameters": {
+            "alpha": 100.0,
+            "l1_ratio": 0.5
+          }
+        },
+        {
+          "candidate_id": "ELASTIC_NET_25",
+          "ordering_sha256": "CC4C11772C9FFC5E7346328FF1C21FAF3A44E6B1A410AA03A53D7B277DCF172A",
+          "parameters": {
+            "alpha": 0.03727593720314938,
+            "l1_ratio": 0.5
+          }
+        },
+        {
+          "candidate_id": "ELASTIC_NET_26",
+          "ordering_sha256": "CCF397A55D927AD5890D6BB94FC55AA59CD79E23BB7191FB8612F8C4E6EE3E9F",
+          "parameters": {
+            "alpha": 0.0007196856730011522,
+            "l1_ratio": 0.75
+          }
+        },
+        {
+          "candidate_id": "ELASTIC_NET_27",
+          "ordering_sha256": "D6531C9FB660F470B162C36943F12519B5DC009EF2869E7EE064E1AADA767D10",
+          "parameters": {
+            "alpha": 0.0001,
+            "l1_ratio": 0.25
+          }
+        },
+        {
+          "candidate_id": "ELASTIC_NET_28",
+          "ordering_sha256": "DC7D8490B234BEF39A7B844537989698AEB32896C1E028FCBD7D897BE95D8391",
+          "parameters": {
+            "alpha": 13.89495494373136,
+            "l1_ratio": 1.0
+          }
+        },
+        {
+          "candidate_id": "ELASTIC_NET_29",
+          "ordering_sha256": "E083D068D7DD91E3EC4CC8D63DF4C88FEE2077837575F9924BD4E2A201D34C79",
+          "parameters": {
+            "alpha": 0.03727593720314938,
+            "l1_ratio": 1.0
+          }
+        },
+        {
+          "candidate_id": "ELASTIC_NET_30",
+          "ordering_sha256": "E8CF75F303810A5BC7585CC99870CED946ACEA4CF7E1F038B675A00B56EB196C",
+          "parameters": {
+            "alpha": 100.0,
+            "l1_ratio": 0.25
+          }
+        },
+        {
+          "candidate_id": "ELASTIC_NET_31",
+          "ordering_sha256": "F2D65A0AEF4EA8C005929A8E6DE21B4A49656AF46E92999C92662EC9F200495E",
+          "parameters": {
+            "alpha": 0.2682695795279725,
+            "l1_ratio": 0.5
+          }
+        },
+        {
+          "candidate_id": "ELASTIC_NET_32",
+          "ordering_sha256": "FE716797DC1DA79A7AE139E390EDDAFE5328B9E2A0F58F12289562DC1B50839C",
+          "parameters": {
+            "alpha": 0.005179474679231213,
+            "l1_ratio": 0.5
+          }
+        }
+      ]
+    },
+    "extra_trees": {
+      "model": "extra_trees",
+      "full_cartesian_count": 48,
+      "selected_count": 24,
+      "selection_rule": "first 24 after SHA256(model + canonical parameter JSON) ordering",
+      "candidates": [
+        {
+          "candidate_id": "EXTRA_TREES_01",
+          "ordering_sha256": "0026E663F08FA0193A7964E758CD79CE56CD486E635D58F99705D073C1212899",
+          "parameters": {
+            "max_depth": null,
+            "min_samples_leaf": 8,
+            "max_features": 1.0
+          }
+        },
+        {
+          "candidate_id": "EXTRA_TREES_02",
+          "ordering_sha256": "033F5DFA27011AFC74FBEC73C0D555432FF6A94B1C186BEC67DF5140AE211DDE",
+          "parameters": {
+            "max_depth": null,
+            "min_samples_leaf": 1,
+            "max_features": "sqrt"
+          }
+        },
+        {
+          "candidate_id": "EXTRA_TREES_03",
+          "ordering_sha256": "08FE95F651F2DCFFBD6AB3DA999CC4149224D88343A685787C7EFF9C72F893D9",
+          "parameters": {
+            "max_depth": 8,
+            "min_samples_leaf": 4,
+            "max_features": 0.7
+          }
+        },
+        {
+          "candidate_id": "EXTRA_TREES_04",
+          "ordering_sha256": "12EEF2468275EF381A7C2C6316759E5302B12E3D1CD6A98B1D659F26A8090E87",
+          "parameters": {
+            "max_depth": 8,
+            "min_samples_leaf": 2,
+            "max_features": 1.0
+          }
+        },
+        {
+          "candidate_id": "EXTRA_TREES_05",
+          "ordering_sha256": "130289BC8C5307D38E70D5808C794A72E938148F96DF9FFD60816278E741F114",
+          "parameters": {
+            "max_depth": 5,
+            "min_samples_leaf": 2,
+            "max_features": 1.0
+          }
+        },
+        {
+          "candidate_id": "EXTRA_TREES_06",
+          "ordering_sha256": "1D4F93B1F48CC79B8E3C02CC46F51F8F3E36EBBD27B4CC21AAEE4AC0AEB27F92",
+          "parameters": {
+            "max_depth": 3,
+            "min_samples_leaf": 2,
+            "max_features": "sqrt"
+          }
+        },
+        {
+          "candidate_id": "EXTRA_TREES_07",
+          "ordering_sha256": "2221CD6B9A192AB400EC721DA884410C0107FD750DAF284AB0A11C15489D00B7",
+          "parameters": {
+            "max_depth": null,
+            "min_samples_leaf": 2,
+            "max_features": "sqrt"
+          }
+        },
+        {
+          "candidate_id": "EXTRA_TREES_08",
+          "ordering_sha256": "2672E34285197CFB218B3D161A0DA5320C72161058275659DDE4658849AD6652",
+          "parameters": {
+            "max_depth": null,
+            "min_samples_leaf": 4,
+            "max_features": 0.7
+          }
+        },
+        {
+          "candidate_id": "EXTRA_TREES_09",
+          "ordering_sha256": "282936E8AE32C701B1F4AEA900B632FB535C63D303DC6981E30E679193B940AA",
+          "parameters": {
+            "max_depth": 8,
+            "min_samples_leaf": 1,
+            "max_features": "sqrt"
+          }
+        },
+        {
+          "candidate_id": "EXTRA_TREES_10",
+          "ordering_sha256": "2E9D75D21A6B0BAC90DB5360DF12794E2D0B762FE8B2208A39B48F1556C7C6AA",
+          "parameters": {
+            "max_depth": 3,
+            "min_samples_leaf": 1,
+            "max_features": 0.7
+          }
+        },
+        {
+          "candidate_id": "EXTRA_TREES_11",
+          "ordering_sha256": "36A6F21370A0F7220FA801C696F3514738F03A20B615A526D4A8CEE5908930A0",
+          "parameters": {
+            "max_depth": 3,
+            "min_samples_leaf": 4,
+            "max_features": 1.0
+          }
+        },
+        {
+          "candidate_id": "EXTRA_TREES_12",
+          "ordering_sha256": "3F7FCDE35385A236773FB6BCD47302E2F7F0F340F7BB7271609EF8A15E618719",
+          "parameters": {
+            "max_depth": 5,
+            "min_samples_leaf": 2,
+            "max_features": 0.7
+          }
+        },
+        {
+          "candidate_id": "EXTRA_TREES_13",
+          "ordering_sha256": "4423672015C5E45E16AA83A0F47A34530F7E5EFD942F58C57220BFA3A33035D5",
+          "parameters": {
+            "max_depth": 5,
+            "min_samples_leaf": 8,
+            "max_features": 1.0
+          }
+        },
+        {
+          "candidate_id": "EXTRA_TREES_14",
+          "ordering_sha256": "44F9CFE6AFAFFD32F9EEDFC72D45502C42BAA8AFD8F967133018027B2956993F",
+          "parameters": {
+            "max_depth": null,
+            "min_samples_leaf": 4,
+            "max_features": 1.0
+          }
+        },
+        {
+          "candidate_id": "EXTRA_TREES_15",
+          "ordering_sha256": "45B08B71228DB126C9BFB3DFDA5DEFD33935BE6CD0CD4847AA4AC8C9E6338D17",
+          "parameters": {
+            "max_depth": null,
+            "min_samples_leaf": 2,
+            "max_features": 0.7
+          }
+        },
+        {
+          "candidate_id": "EXTRA_TREES_16",
+          "ordering_sha256": "462F7BCDCB11232BCF54661F4EA90EFD81F9161329560877515E534043E69D5D",
+          "parameters": {
+            "max_depth": 3,
+            "min_samples_leaf": 4,
+            "max_features": "sqrt"
+          }
+        },
+        {
+          "candidate_id": "EXTRA_TREES_17",
+          "ordering_sha256": "484D976FBCF43E28FF7602F1FD36C717F75BEE3F92ADD371D9ECAD921229476F",
+          "parameters": {
+            "max_depth": 5,
+            "min_samples_leaf": 4,
+            "max_features": "sqrt"
+          }
+        },
+        {
+          "candidate_id": "EXTRA_TREES_18",
+          "ordering_sha256": "4EAE54CC74F203B8533C5064DD631438CEA89445D6B32DCE384FD866FB6D2EB1",
+          "parameters": {
+            "max_depth": null,
+            "min_samples_leaf": 1,
+            "max_features": 1.0
+          }
+        },
+        {
+          "candidate_id": "EXTRA_TREES_19",
+          "ordering_sha256": "5177DC3EAA8C83CFD4BDC762BEBCFBF783EF6DA76AF55D42F61C6BDE0D350C33",
+          "parameters": {
+            "max_depth": 8,
+            "min_samples_leaf": 2,
+            "max_features": "sqrt"
+          }
+        },
+        {
+          "candidate_id": "EXTRA_TREES_20",
+          "ordering_sha256": "57837905C1B1CAF53201C19EC3B2818650D39F62642DCB48D31DDDFDBD58AE99",
+          "parameters": {
+            "max_depth": 5,
+            "min_samples_leaf": 4,
+            "max_features": 0.7
+          }
+        },
+        {
+          "candidate_id": "EXTRA_TREES_21",
+          "ordering_sha256": "596A05FE95CA2A75C96ADFEDBF694E18AB88EAB43BB4B4F012D2C0BBE56BA40C",
+          "parameters": {
+            "max_depth": null,
+            "min_samples_leaf": 8,
+            "max_features": 0.7
+          }
+        },
+        {
+          "candidate_id": "EXTRA_TREES_22",
+          "ordering_sha256": "5AE80FFD0A0D64328D1DAB039BFC792D7AFB528482272E6C41BE2FAA05522FB9",
+          "parameters": {
+            "max_depth": 3,
+            "min_samples_leaf": 1,
+            "max_features": "sqrt"
+          }
+        },
+        {
+          "candidate_id": "EXTRA_TREES_23",
+          "ordering_sha256": "65A24B8703F439968D7AACC92AAE66896227A959E34C2236B4C78B54AA772E9A",
+          "parameters": {
+            "max_depth": 8,
+            "min_samples_leaf": 8,
+            "max_features": 1.0
+          }
+        },
+        {
+          "candidate_id": "EXTRA_TREES_24",
+          "ordering_sha256": "672E0C2684CC31ACADDE5C3FBDC19B8A569ECB82129732760DB563D2F6EF2FEC",
+          "parameters": {
+            "max_depth": 3,
+            "min_samples_leaf": 8,
+            "max_features": 0.7
+          }
+        }
+      ]
+    },
+    "hist_gradient_boosting": {
+      "model": "hist_gradient_boosting",
+      "full_cartesian_count": 81,
+      "selected_count": 24,
+      "selection_rule": "first 24 after SHA256(model + canonical parameter JSON) ordering",
+      "candidates": [
+        {
+          "candidate_id": "HIST_GRADIENT_BOOSTING_01",
+          "ordering_sha256": "0388CE8EF5FDF0125DCD959231C61F59B15DB3FFB0BFF15121038D6F60F265A7",
+          "parameters": {
+            "learning_rate": 0.1,
+            "max_leaf_nodes": 31,
+            "min_samples_leaf": 20,
+            "l2_regularization": 0.1
+          }
+        },
+        {
+          "candidate_id": "HIST_GRADIENT_BOOSTING_02",
+          "ordering_sha256": "03BBB60FD46CBDC57E33F7A5C615946A6197B4B8D072FDED52E69033AAFE70D1",
+          "parameters": {
+            "learning_rate": 0.1,
+            "max_leaf_nodes": 15,
+            "min_samples_leaf": 5,
+            "l2_regularization": 0.0
+          }
+        },
+        {
+          "candidate_id": "HIST_GRADIENT_BOOSTING_03",
+          "ordering_sha256": "07A5D028940373D394EFC08DAEE9834A80C3DA9BC59DBD21911C803F975DA4FB",
+          "parameters": {
+            "learning_rate": 0.03,
+            "max_leaf_nodes": 7,
+            "min_samples_leaf": 20,
+            "l2_regularization": 0.0
+          }
+        },
+        {
+          "candidate_id": "HIST_GRADIENT_BOOSTING_04",
+          "ordering_sha256": "0C8B5124E26503DE3EEE8D641811C0A7A44765CE52F04199A1474F4B21C042B6",
+          "parameters": {
+            "learning_rate": 0.1,
+            "max_leaf_nodes": 31,
+            "min_samples_leaf": 5,
+            "l2_regularization": 0.0
+          }
+        },
+        {
+          "candidate_id": "HIST_GRADIENT_BOOSTING_05",
+          "ordering_sha256": "0E7F5C665E4480020E6EF013971A2813CF282E4F41D2352D2BE9F62BFA5B8C09",
+          "parameters": {
+            "learning_rate": 0.03,
+            "max_leaf_nodes": 31,
+            "min_samples_leaf": 5,
+            "l2_regularization": 0.0
+          }
+        },
+        {
+          "candidate_id": "HIST_GRADIENT_BOOSTING_06",
+          "ordering_sha256": "113425245F658D944F7685DB5BFCF998D7ABDF37164634E35FF729A5CA768A13",
+          "parameters": {
+            "learning_rate": 0.05,
+            "max_leaf_nodes": 7,
+            "min_samples_leaf": 10,
+            "l2_regularization": 0.0
+          }
+        },
+        {
+          "candidate_id": "HIST_GRADIENT_BOOSTING_07",
+          "ordering_sha256": "11F201E09DC0CBBC1D38825090E133EA9D84B9825C9893759DF3C71467D8789F",
+          "parameters": {
+            "learning_rate": 0.05,
+            "max_leaf_nodes": 31,
+            "min_samples_leaf": 10,
+            "l2_regularization": 0.1
+          }
+        },
+        {
+          "candidate_id": "HIST_GRADIENT_BOOSTING_08",
+          "ordering_sha256": "192F9B9FF7C377D06942D474D65E5F57DB67D63CEBEE06BE5F9533B9D198A73D",
+          "parameters": {
+            "learning_rate": 0.05,
+            "max_leaf_nodes": 15,
+            "min_samples_leaf": 20,
+            "l2_regularization": 1.0
+          }
+        },
+        {
+          "candidate_id": "HIST_GRADIENT_BOOSTING_09",
+          "ordering_sha256": "1DE6516199963BCB20982FD2D2B2295F14A5776189251551D591AC52BB2DAED6",
+          "parameters": {
+            "learning_rate": 0.1,
+            "max_leaf_nodes": 15,
+            "min_samples_leaf": 20,
+            "l2_regularization": 0.0
+          }
+        },
+        {
+          "candidate_id": "HIST_GRADIENT_BOOSTING_10",
+          "ordering_sha256": "20BC8AE7433FA1BCBFD62E2FC7A55C1FED13E86176AF8D059D43A7216C9D9D2E",
+          "parameters": {
+            "learning_rate": 0.05,
+            "max_leaf_nodes": 7,
+            "min_samples_leaf": 5,
+            "l2_regularization": 0.0
+          }
+        },
+        {
+          "candidate_id": "HIST_GRADIENT_BOOSTING_11",
+          "ordering_sha256": "23E9B7755D15A9EA7789F0E5649A486C390E75E52C330FE4EDBD6BCB5D2FA0F3",
+          "parameters": {
+            "learning_rate": 0.05,
+            "max_leaf_nodes": 7,
+            "min_samples_leaf": 10,
+            "l2_regularization": 0.1
+          }
+        },
+        {
+          "candidate_id": "HIST_GRADIENT_BOOSTING_12",
+          "ordering_sha256": "2AA16CB26F07B0D6FCEB3E1D7FD708F66A723B4D01E7046254155D5222E3FF7B",
+          "parameters": {
+            "learning_rate": 0.1,
+            "max_leaf_nodes": 7,
+            "min_samples_leaf": 10,
+            "l2_regularization": 0.0
+          }
+        },
+        {
+          "candidate_id": "HIST_GRADIENT_BOOSTING_13",
+          "ordering_sha256": "2B55DE63DF0DE9A3D83095375B982EC1603B3C306B2CE2C548FA0B762F3D7CA7",
+          "parameters": {
+            "learning_rate": 0.05,
+            "max_leaf_nodes": 31,
+            "min_samples_leaf": 5,
+            "l2_regularization": 0.1
+          }
+        },
+        {
+          "candidate_id": "HIST_GRADIENT_BOOSTING_14",
+          "ordering_sha256": "2C32FEB08A24784E51D2833687815E9DCD116CEC53CA31A3B61286AEA198CD49",
+          "parameters": {
+            "learning_rate": 0.03,
+            "max_leaf_nodes": 15,
+            "min_samples_leaf": 5,
+            "l2_regularization": 1.0
+          }
+        },
+        {
+          "candidate_id": "HIST_GRADIENT_BOOSTING_15",
+          "ordering_sha256": "2DAD71671CFDD9586E2F2B1396F48314383BD5ED409C9148276B2C2C7313D7E7",
+          "parameters": {
+            "learning_rate": 0.03,
+            "max_leaf_nodes": 31,
+            "min_samples_leaf": 10,
+            "l2_regularization": 0.1
+          }
+        },
+        {
+          "candidate_id": "HIST_GRADIENT_BOOSTING_16",
+          "ordering_sha256": "30CD1E2D2700163246694ADF6854284B299C8726D32790444E5599C5B6F67433",
+          "parameters": {
+            "learning_rate": 0.05,
+            "max_leaf_nodes": 7,
+            "min_samples_leaf": 10,
+            "l2_regularization": 1.0
+          }
+        },
+        {
+          "candidate_id": "HIST_GRADIENT_BOOSTING_17",
+          "ordering_sha256": "336B4DA77499BB750FB6C2688960FC7F2C6DE92F553079A34F7EEB32BC22E3C2",
+          "parameters": {
+            "learning_rate": 0.05,
+            "max_leaf_nodes": 15,
+            "min_samples_leaf": 10,
+            "l2_regularization": 0.0
+          }
+        },
+        {
+          "candidate_id": "HIST_GRADIENT_BOOSTING_18",
+          "ordering_sha256": "40513F89B9725E6FE10AE3FB1F154AFFA5BD53263D31660E8545DF1C5F9F55FD",
+          "parameters": {
+            "learning_rate": 0.03,
+            "max_leaf_nodes": 15,
+            "min_samples_leaf": 20,
+            "l2_regularization": 1.0
+          }
+        },
+        {
+          "candidate_id": "HIST_GRADIENT_BOOSTING_19",
+          "ordering_sha256": "4289554697561BADC9C999CF67B10B8695AC9DE963D0A2D817E012601AAA8630",
+          "parameters": {
+            "learning_rate": 0.03,
+            "max_leaf_nodes": 7,
+            "min_samples_leaf": 10,
+            "l2_regularization": 0.1
+          }
+        },
+        {
+          "candidate_id": "HIST_GRADIENT_BOOSTING_20",
+          "ordering_sha256": "49BAC65585D027B22A1AFE5968BCE67CE7C1F3BEC3779387632A569DC8CF29F6",
+          "parameters": {
+            "learning_rate": 0.1,
+            "max_leaf_nodes": 15,
+            "min_samples_leaf": 5,
+            "l2_regularization": 1.0
+          }
+        },
+        {
+          "candidate_id": "HIST_GRADIENT_BOOSTING_21",
+          "ordering_sha256": "4AF263F4624D4100059CDA9C88D5BB40BA7F639AFF3D7F6FA89CB2AACEE2E737",
+          "parameters": {
+            "learning_rate": 0.05,
+            "max_leaf_nodes": 15,
+            "min_samples_leaf": 20,
+            "l2_regularization": 0.1
+          }
+        },
+        {
+          "candidate_id": "HIST_GRADIENT_BOOSTING_22",
+          "ordering_sha256": "4E96095D77E91086213954DFE672B6F45BD231CBB1E5DF43F22FEDFB31640B69",
+          "parameters": {
+            "learning_rate": 0.1,
+            "max_leaf_nodes": 15,
+            "min_samples_leaf": 10,
+            "l2_regularization": 0.0
+          }
+        },
+        {
+          "candidate_id": "HIST_GRADIENT_BOOSTING_23",
+          "ordering_sha256": "58D270C737D6F9F3D8DB27132DA64FF80801F3C526F2B2443043F03E6AADD4F2",
+          "parameters": {
+            "learning_rate": 0.1,
+            "max_leaf_nodes": 31,
+            "min_samples_leaf": 20,
+            "l2_regularization": 0.0
+          }
+        },
+        {
+          "candidate_id": "HIST_GRADIENT_BOOSTING_24",
+          "ordering_sha256": "5EBF99E9C731DE4917F68819F9611EAA024452EFCFD32484F0F81D0E945E50A4",
+          "parameters": {
+            "learning_rate": 0.03,
+            "max_leaf_nodes": 31,
+            "min_samples_leaf": 20,
+            "l2_regularization": 0.1
+          }
+        }
+      ]
+    },
+    "catboost": {
+      "model": "catboost",
+      "full_cartesian_count": 108,
+      "selected_count": 24,
+      "selection_rule": "first 24 after SHA256(model + canonical parameter JSON) ordering",
+      "candidates": [
+        {
+          "candidate_id": "CATBOOST_01",
+          "ordering_sha256": "018F2BE8C0E68AD3EEEA3B56B5C6D757A577305869318517928F13A2AF8502B1",
+          "parameters": {
+            "depth": 6,
+            "learning_rate": 0.1,
+            "l2_leaf_reg": 10,
+            "iterations": 300
+          }
+        },
+        {
+          "candidate_id": "CATBOOST_02",
+          "ordering_sha256": "01AC4D652E8E585DDF8360AE03C478110F5A40D42ABC817A307B1649464F6313",
+          "parameters": {
+            "depth": 5,
+            "learning_rate": 0.05,
+            "l2_leaf_reg": 1,
+            "iterations": 600
+          }
+        },
+        {
+          "candidate_id": "CATBOOST_03",
+          "ordering_sha256": "01C690BCBD53AB5ECC57BECE6D1923FD91D45B9718D09A79AF3C5238EAEF1A6C",
+          "parameters": {
+            "depth": 4,
+            "learning_rate": 0.1,
+            "l2_leaf_reg": 10,
+            "iterations": 1000
+          }
+        },
+        {
+          "candidate_id": "CATBOOST_04",
+          "ordering_sha256": "01F1E718329235E38FF5A7B788DC5E310F474E205BCEDE36324D1134038F85C2",
+          "parameters": {
+            "depth": 3,
+            "learning_rate": 0.1,
+            "l2_leaf_reg": 10,
+            "iterations": 300
+          }
+        },
+        {
+          "candidate_id": "CATBOOST_05",
+          "ordering_sha256": "07CBA1614A28EF468B054ADD6DCD36CA05DD37026236C9749F62B30F9DE4D1E9",
+          "parameters": {
+            "depth": 5,
+            "learning_rate": 0.1,
+            "l2_leaf_reg": 10,
+            "iterations": 1000
+          }
+        },
+        {
+          "candidate_id": "CATBOOST_06",
+          "ordering_sha256": "0AC4AAFC348DD5AA40E9421BA032CC38F85296DD9F3D5A5C2BB92365E8DCFC6A",
+          "parameters": {
+            "depth": 5,
+            "learning_rate": 0.1,
+            "l2_leaf_reg": 10,
+            "iterations": 300
+          }
+        },
+        {
+          "candidate_id": "CATBOOST_07",
+          "ordering_sha256": "0B4B3B04B4FDE3C51A70B3ABA30F9ABF2EB551A3B4D9F9FACCF4579B2A02F1D9",
+          "parameters": {
+            "depth": 6,
+            "learning_rate": 0.05,
+            "l2_leaf_reg": 1,
+            "iterations": 1000
+          }
+        },
+        {
+          "candidate_id": "CATBOOST_08",
+          "ordering_sha256": "10DC5487F75B098CE918FECBBC0232BA25E4FC51B9EF39432054B3396CCF4D5F",
+          "parameters": {
+            "depth": 6,
+            "learning_rate": 0.1,
+            "l2_leaf_reg": 10,
+            "iterations": 600
+          }
+        },
+        {
+          "candidate_id": "CATBOOST_09",
+          "ordering_sha256": "19270D1BA0D73E2D466ED353BB4DC9D7B441AD300F0B5AAE938E4CA5852593EE",
+          "parameters": {
+            "depth": 5,
+            "learning_rate": 0.1,
+            "l2_leaf_reg": 1,
+            "iterations": 300
+          }
+        },
+        {
+          "candidate_id": "CATBOOST_10",
+          "ordering_sha256": "1C1A66EA71D8388594E8BB499046932EB51A30B0126662BF4C1A6653D1D01472",
+          "parameters": {
+            "depth": 3,
+            "learning_rate": 0.05,
+            "l2_leaf_reg": 1,
+            "iterations": 1000
+          }
+        },
+        {
+          "candidate_id": "CATBOOST_11",
+          "ordering_sha256": "1D100C2AE95BBAAFDBB3272235877272D8C1E83DB557341F8CAF401847631741",
+          "parameters": {
+            "depth": 6,
+            "learning_rate": 0.05,
+            "l2_leaf_reg": 10,
+            "iterations": 300
+          }
+        },
+        {
+          "candidate_id": "CATBOOST_12",
+          "ordering_sha256": "1EB3890C971FA0290ED8D291BCDD239762C5D0EC0BD64DA38BE5CD60F7EF6AA4",
+          "parameters": {
+            "depth": 3,
+            "learning_rate": 0.02,
+            "l2_leaf_reg": 1,
+            "iterations": 300
+          }
+        },
+        {
+          "candidate_id": "CATBOOST_13",
+          "ordering_sha256": "25BE7A67E3F63797EFA187E799B6C192FA1805C1D2053E8B5C6622BE6460A866",
+          "parameters": {
+            "depth": 6,
+            "learning_rate": 0.02,
+            "l2_leaf_reg": 3,
+            "iterations": 600
+          }
+        },
+        {
+          "candidate_id": "CATBOOST_14",
+          "ordering_sha256": "26C988979AA2B8DBAF119205E13E7E7C0E674D2D8A2649E1D6A7198A783FA4B6",
+          "parameters": {
+            "depth": 5,
+            "learning_rate": 0.05,
+            "l2_leaf_reg": 1,
+            "iterations": 1000
+          }
+        },
+        {
+          "candidate_id": "CATBOOST_15",
+          "ordering_sha256": "26FD8FC26D25A27C7EB884918AF1E8B6E401EDBBC74E46CFF06C045BB922BBA8",
+          "parameters": {
+            "depth": 6,
+            "learning_rate": 0.05,
+            "l2_leaf_reg": 1,
+            "iterations": 600
+          }
+        },
+        {
+          "candidate_id": "CATBOOST_16",
+          "ordering_sha256": "2781B21ACDE6CB83E40A4421A22D97D8ADF3B7DE4B9990B81E7C361F11879988",
+          "parameters": {
+            "depth": 3,
+            "learning_rate": 0.02,
+            "l2_leaf_reg": 10,
+            "iterations": 300
+          }
+        },
+        {
+          "candidate_id": "CATBOOST_17",
+          "ordering_sha256": "2952D17540F4B1E5FB801EF867702DED31334876231EBCE4846DBE5BF71C33B1",
+          "parameters": {
+            "depth": 3,
+            "learning_rate": 0.02,
+            "l2_leaf_reg": 1,
+            "iterations": 1000
+          }
+        },
+        {
+          "candidate_id": "CATBOOST_18",
+          "ordering_sha256": "2A7C031102029534C73E9E7E64BD87FEC812E197FCC37C3840904D1C2D7670D7",
+          "parameters": {
+            "depth": 3,
+            "learning_rate": 0.02,
+            "l2_leaf_reg": 10,
+            "iterations": 1000
+          }
+        },
+        {
+          "candidate_id": "CATBOOST_19",
+          "ordering_sha256": "2C98D0AA5734BD2D5DC0E3442F1F051D8322EECA802E3DA37FFD3BCAE7DE2427",
+          "parameters": {
+            "depth": 3,
+            "learning_rate": 0.05,
+            "l2_leaf_reg": 3,
+            "iterations": 600
+          }
+        },
+        {
+          "candidate_id": "CATBOOST_20",
+          "ordering_sha256": "2D5F755D1CDAFD34A035AA9C4585C4E24992F5CE51329F830F2D0EF5958D70EA",
+          "parameters": {
+            "depth": 4,
+            "learning_rate": 0.05,
+            "l2_leaf_reg": 3,
+            "iterations": 300
+          }
+        },
+        {
+          "candidate_id": "CATBOOST_21",
+          "ordering_sha256": "2FFBAA781AF99A429B85E978F2406E3C18AB9B7A7E4F2289C21275BB5D4A6B8C",
+          "parameters": {
+            "depth": 4,
+            "learning_rate": 0.02,
+            "l2_leaf_reg": 1,
+            "iterations": 300
+          }
+        },
+        {
+          "candidate_id": "CATBOOST_22",
+          "ordering_sha256": "30AA05A1350232E44ED59ED1D6B28396028376AACF5A48F2FD3C600A0B8596DD",
+          "parameters": {
+            "depth": 3,
+            "learning_rate": 0.1,
+            "l2_leaf_reg": 10,
+            "iterations": 600
+          }
+        },
+        {
+          "candidate_id": "CATBOOST_23",
+          "ordering_sha256": "317880E5D4BA3F6D9917E385CB8FED70DC85FCDF2F5F7590DEE81E8CDABF62D6",
+          "parameters": {
+            "depth": 6,
+            "learning_rate": 0.05,
+            "l2_leaf_reg": 3,
+            "iterations": 300
+          }
+        },
+        {
+          "candidate_id": "CATBOOST_24",
+          "ordering_sha256": "320E6F37DEF87B56A930042E7183696B70CF601DAB387005ADDE0F64AED8BB9E",
+          "parameters": {
+            "depth": 3,
+            "learning_rate": 0.05,
+            "l2_leaf_reg": 10,
+            "iterations": 600
+          }
+        }
+      ]
+    }
+  }
+}

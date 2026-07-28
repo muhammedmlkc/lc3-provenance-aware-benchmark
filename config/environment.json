@@ -1,0 +1,25 @@
+{
+  "python": "3.11.7",
+  "node": "24.15.0",
+  "platform": "Windows 10 AMD64",
+  "packages": {
+    "numpy": "1.26.4",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.8.0",
+    "scipy": "1.17.0",
+    "catboost": "1.2.8",
+    "matplotlib": "3.11.0"
+  },
+  "thread_environment": {
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "PYTHONHASHSEED": "0"
+  },
+  "learner_threading": {
+    "ExtraTreesRegressor.n_jobs": 1,
+    "CatBoostRegressor.thread_count": 1
+  },
+  "compute_policy": "CPU-only, single-thread execution"
+}
